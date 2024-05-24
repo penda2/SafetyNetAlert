@@ -16,7 +16,7 @@ https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
   git clone https://github.com/penda2/SafetyNetAlert.git
 ```
 
-- 2 - Go to the project directory, click on the address bar at the top of the window (where the folder path is displayed). Type "cmd" and press Enter. This will open Command Prompt directly to the location of this folder.
+- 2 - Go to the project directory, open target folder, click on the address bar at the top of the window (where the folder path is displayed). Type "cmd" and press Enter. This will open Command Prompt directly to the location of this folder.
 
 - 3- To verify java version, run
 ```bash

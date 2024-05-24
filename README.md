@@ -27,6 +27,7 @@ https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 java -jar api-0.0.1-SNAPSHOT.jar
 ```
 - 5 - Go to the browser and test the application with given endpoints:
+  
 http://localhost:8080/person
 
 http://localhost:8080/medicalrecord

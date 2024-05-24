@@ -16,13 +16,18 @@ https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
   git clone https://github.com/penda2/SafetyNetAlert.git
 ```
 
-- 2 - Go to the project directory, open target folder, click on the address bar at the top of the window (where the folder path is displayed). Type "cmd" and press Enter. This will open Command Prompt directly to the location of this folder.
+- 2 - Go to the project directory, click on the address bar at the top of the window (where the folder path is displayed). Type "cmd" and press Enter. This will open Command Prompt directly to the location of this folder.
 
-- 3- To verify java version, run
+- 3- To verify java version, run :
 ```bash
   java -version
 ```
-- 4 - Then reploy application by running
+- 4 - To generate jar file in new taget folder, run :
+
+```bash
+mvn clean package
+```
+- 5 - To deploy application, run : 
 ```bash
 java -jar api-0.0.1-SNAPSHOT.jar
 ```
